@@ -1,6 +1,6 @@
 {
-  "name": "assign0",
-  "description": "assign0",
+  "name": "assign1-web-programming",
+  "description": "assign1-web-programming",
   "version": "1.0.0",
   "author": {
     "name": "Feross Aboukhadijeh",
@@ -14,21 +14,20 @@
   "devDependencies": {
     "snazzy": "^9.0.0",
     "standard": "^16.0.3",
-    "tap-spec": "^5.0.0",
     "tape": "^5.3.1"
   },
-  "homepage": "https://cs253.stanford.edu",
+  "homepage": "https://websec.osu-security.com",
   "keywords": [],
   "license": "MIT",
   "main": "server/index.js",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/stanford-web-security/assign0.git"
+    "url": "git@github.com:OSU-Web-Security/assign1-web-programming.git"
   },
   "scripts": {
     "lint": "standard | snazzy",
     "lint-fix": "standard --fix | snazzy",
-    "test": "npm run lint && tape test/*.js | tap-spec"
+    "test": "npm run lint && tape test/*.js"
   }
 }
